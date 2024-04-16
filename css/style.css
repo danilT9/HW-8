@@ -1,0 +1,26 @@
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+
+.text-box .yellow {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    margin-left: 890px;
+}
