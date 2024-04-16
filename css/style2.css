@@ -1,0 +1,47 @@
+* {
+    list-style: decimal;
+}
+
+.div-less h1 {
+    color:brown
+}
+
+.ul-class li:hover {
+    background-color: rgb(237, 190, 190);
+}
+
+.ul-class li:active {
+    transform: scale(0.95);
+}
+
+.ul-class li:focus {
+    outline: 2px solid red;
+}
+
+.ul-class li:visited {
+    color: gray;
+}
+
+.ul-class li:disabled {
+    opacity: 0.5;
+}
+
+.ul-class li:first-child {
+    font-weight: bold;
+}
+
+.ul-class li:last-child {
+    font-style: italic;
+}
+
+.ul-class li:nth-child(odd) {
+    color: green;
+}
+
+.ul-class li:nth-child(even) {
+    color: blue;
+}
+
+.ul-class li:nth-child(3n) {
+    color: orange;
+}
